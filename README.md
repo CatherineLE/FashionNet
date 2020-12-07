@@ -7,13 +7,13 @@ Multi-labels Images classification &amp; recommendation model - Tensorflow &amp;
 - See DeepFashion database website => Category and Attribute Prediction Benchmark => 289 220 images splited into different folders
 - Prepared Data into 5 classes and Attributes for each Classes
 - Prepared Data into Validation and Train folders
-- 5 generated weights file .h5 through these .ipynb files above
+- 5 generated weights file .h5 through these .ipynb files 
 
 # STEPS 
 - 1 : download the data in DeepFashion Database
 - 2 : prepare the data into classes/attributes folders then into validation and train folders for each attributes
 - 3 : execute for each classes the notebook to generate .h5 5 weight files for color, shape, type, pattern, and fabric (matiere)
-- 4 : with theses 5 weight files, execute the recommendation model with 2 new images as input to see some recommended clothes
+- 4 : with theses 5 weight files, execute the recommendation model with 2 new images as input to see some recommended clothes (see FashionNet_End.ipynb)
 
 # Results in FashionNet_End.ipynb final file
 With these two input images :
