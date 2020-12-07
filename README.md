@@ -12,7 +12,7 @@ Multi-labels Images classification &amp; recommendation model - Tensorflow &amp;
 # STEPS 
 - 1 : download the data in DeepFashion Database
 - 2 : prepare the data into classes/attributes folders then into validation and train folders for each attributes
-- 3 : execute for each classes the notebook to generate .h5 5 weight files for color, shape, type, pattern, and fabric (matiere)
+- 3 : execute for each classes the notebook to generate .h5 files (5 weight files for color, shape, type, pattern, and fabric (matiere))
 - 4 : with theses 5 weight files, execute the recommendation model with 2 new images as input to see some recommended clothes (see FashionNet_End.ipynb)
 
 # Results in FashionNet_End.ipynb final file
